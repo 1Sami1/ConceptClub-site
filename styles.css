@@ -1,0 +1,15 @@
+.site-nav{
+    display: flex;
+    background-color: #282A3E;
+    justify-content: space-between ;
+    
+}
+.header-logo{
+    width: 70px;
+    height: 70px;
+}
+.nav-ul{
+
+    list-style: none;
+
+}
