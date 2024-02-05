@@ -1,17 +1,33 @@
-.site-nav{
-    display: flex;
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.site-header{
     background-color: #282A3E;
-    justify-content: space-between ;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 .header-logo{
-    width: 70px;
-    height: 70px;
+    margin-left: 100px;
+    img{
+        width: 70px;
+    }
+}
+.site-nav{
+    margin-right: 100px;
 }
 .nav-ul{
-
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    li a{
+        text-decoration: none;
+        color: #C9E5FF;
+        padding-left: 10px;
 
+    }
 }
 
 .hero-section-asset{
