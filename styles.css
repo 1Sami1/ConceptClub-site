@@ -23,27 +23,23 @@ body{
 }
 .header-logo{
     width: 70px;
-    /* margin-left: 50px; */
+    margin-left: 100px;
     img{
         width: 70px;
     }
 }
-
 .nav-ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
+    margin-right: 100px;
     li a{
         text-decoration: none;
         color: #C9E5FF;
-        padding-left: 10px;
-
     }
 }
 .nav-ul > li {
-    margin: 0 1rem;
+    margin: 0 10px;
     overflow: hidden;
 }
 .menu-button-container {
@@ -95,10 +91,21 @@ body{
     transform: rotate(-45deg);
   }
 
-
+@media (max-width: 900px) {
+    .header-logo{
+        margin-left: 40px;
+    }
+    .nav-ul{
+        margin-right: 40px;
+    }
+}
   @media (max-width: 700px) {
+    .header-logo{
+        margin-left: 20px;
+    }
     .menu-button-container {
       display: flex;
+      margin-right: 20px;
     }
     .nav-ul {
       position: absolute;
@@ -109,6 +116,7 @@ body{
       width: 100%;
       justify-content: center;
       align-items: center;
+      padding-left: 0;
     }
     #menu-toggle ~ .nav-ul li {
       height: 0;
@@ -117,7 +125,7 @@ body{
       border: 0;
     }
     #menu-toggle:checked ~ .nav-ul li {
-      border: 1px solid #9f9a9a;
+      border: 0.5px solid #b3ff5c;
       height: 2.5em;
       padding: 0.5em;
     }
@@ -126,25 +134,15 @@ body{
       justify-content: center;
       align-items: center;
       margin: 0;
-      padding: 0.5em 0;
+      /* padding: 0.5em 0; */
       width: 100%;
       color: black;
-      background-color: #722222;
-      
+      background-color: #282a3e;
     }
     .nav-ul > li:not(:last-child) {
       border-bottom: 1px solid #444;
-   
     }
   }
-
-
-
-
-
-
-
-
 
 /* --------Hero Section Styles--------- */
 
