@@ -2,6 +2,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: url(./media/bg.png);
+    background-size: contain;
+}
+
 /* --------Header Styles--------- */
 .site-header{
     background-color: #282A3E;
@@ -35,51 +40,54 @@
 
 .hero-section{
     height: 100vh;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     .hero-h1{
-        font-size: 100px;
+        font-size: 200px;
         text-align: center;
+        font-weight: 900;
         color: #b3ff5c;
         margin: 0;
-        margin-right: 6rem;
-        margin-top: 10rem;
+        margin-bottom: 19rem;
     }
     .hero-h1-btm{
-        font-size: 100px;
+        font-size: 200px;
         text-align: center;
         color: #b3ff5c;
+        font-weight: 900;
         margin: 0;
-        margin-left: 20rem;
-        margin-top: 1.5rem;
     }
     .hero-section-asset{
         position: absolute;
-        top: 0;
+        width: 800px;
+        transform: rotate(345deg);
+        margin-bottom: 8rem;
+        opacity: 0.67;
         z-index: -10;
+        
+       
+}
+}
+@media only screen and (max-width: 1600px) {
+    .hero-section{
+        .hero-h1{
+            font-size: 150px;
+        }
+        .hero-h1-btm{
+            font-size: 150px;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .hero-section{
+        .hero-h1{
+            margin-left: 50px;
+        }
+        .hero-h1-btm{
+            margin-right: 50px;
+        }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hero-section-asset{
-    width: 200px;
-}
