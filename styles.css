@@ -91,3 +91,53 @@ body{
     }
 }
 
+/* Design and Development section styles */
+
+.dnd-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.design-div, .dev-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.dev-div{
+    flex-direction: row-reverse;
+    
+}
+.dnd-image{
+    flex: 1; 
+}
+
+.dnd-image img{
+    width: 450px;
+    height: auto;
+}
+
+.dnd-content{
+    flex: 1;
+    padding: 0 30px;
+}
+.dnd-content h3{
+    font-size: 24px;
+    color: #b3ff5c;
+    margin-bottom: 30px;
+}
+
+.dnd-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #C9E5FF;
+}
+
+@media only screen and (min-width: 1440px) {
+        .dnd-content{
+            p{
+                width: 40 0px;
+            }
+        }
+}
