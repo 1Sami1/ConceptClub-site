@@ -8,6 +8,7 @@ body{
 }
 
 /* --------Header Styles--------- */
+
 .site-header{
     background-color: #282A3E;
     display: flex;
@@ -90,6 +91,8 @@ body{
   /*  transforms the hamburger icon into a cross  */
     transform: rotate(-45deg);
   }
+
+/* Mobile nav menu styling with media queries */
 
 @media (max-width: 900px) {
     .header-logo{
