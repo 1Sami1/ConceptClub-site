@@ -33,7 +33,31 @@
 
 /* --------Hero Section Styles--------- */
 
-
+.hero-section{
+    height: 100vh;
+    position: relative;
+    .hero-h1{
+        font-size: 100px;
+        text-align: center;
+        color: #b3ff5c;
+        margin: 0;
+        margin-right: 6rem;
+        margin-top: 10rem;
+    }
+    .hero-h1-btm{
+        font-size: 100px;
+        text-align: center;
+        color: #b3ff5c;
+        margin: 0;
+        margin-left: 20rem;
+        margin-top: 1.5rem;
+    }
+    .hero-section-asset{
+        position: absolute;
+        top: 0;
+        z-index: -10;
+    }
+}
 
 
 
