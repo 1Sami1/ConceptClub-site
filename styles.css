@@ -336,7 +336,7 @@ body{
 
 
 /* --------ABOUT PAGE--------- */
-/* --------Heading Style & intro Style--------- */
+/* --------Heading Style & intro Styles--------- */
 
 .about-h1{
     text-align: center;
@@ -353,6 +353,7 @@ body{
     margin: 0 auto;
     color: #C9E5FF;
     width: 80%;
+    margin-bottom: 10rem;
 }
 .intro-top-p{
     margin-bottom: 7rem;
@@ -375,3 +376,15 @@ body{
     }
 }
 
+/* --------Meet the Team Styles--------- */
+
+.mtt-h2{
+    text-align: center;
+    color: #b3ff5c;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.team-divs{
+    
+}
