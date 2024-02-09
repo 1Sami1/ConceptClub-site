@@ -251,65 +251,20 @@ body{
 
 
 
-
-
-/* .dnd-section{
+.dnd-section{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
 }
 
 .design-div, .dev-div{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
 }
-.dev-div{
-    flex-direction: row-reverse;
-    
-}
-.dnd-image{
-    flex: 1; 
-}
-
-.dnd-image img{
-    width: 450px;
-    height: auto;
-}
-
-.dnd-content{
-    flex: 1;
-    padding: 0 30px;
-}
-.dnd-content h3{
-    font-size: 24px;
-    color: #b3ff5c;
-    margin-bottom: 30px;
-}
-
-.dnd-content p{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #C9E5FF;
-}
-
-@media only screen and (min-width: 1440px) {
-        .dnd-content{
-            p{
-                width: 40 0px;
-            }
-        }
-} */
-.dnd-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
-    margin-top: 15rem;
-}
-
-
 .dnd-image{
     img{
         width: 280px;
@@ -317,8 +272,7 @@ body{
 }
 .dnd-content{
     margin: 0 auto;
-    margin-bottom: 5rem;
-    /* width: 280px; */
+    /* margin-bottom: 5rem; */
     
     h3{
         font-size: 2rem;
@@ -327,21 +281,26 @@ body{
     p{
         color: #C9E5FF;
         font-weight: 300;
+        width: 290px;
     }
 }
+
 @media (min-width: 600px) {
     .dnd-section{
-        
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
     }
-    
 }
 
 @media (min-width: 800px ) {
     .dnd-section{
         margin-top: 0;
+        margin-bottom: 15rem;
     }
     .design-div, .dev-div{
-        width: 50%;
+        /* width: 50%; */
         display: flex;
         align-items: center;
         padding: 20px;
@@ -360,5 +319,17 @@ body{
         flex: 1;
         padding: 0 30px;
     }
-    
+}
+
+@media (min-width: 1200px){
+    .dnd-image img{
+        width: 400px;
+    }
+    .design-pic{
+        padding-right: 4rem;
+    }
+    .dev-pic{
+        padding-left: 4rem;
+    }
+
 }
