@@ -354,6 +354,7 @@ body{
     color: #C9E5FF;
     width: 80%;
     margin-bottom: 10rem;
+    font-size: 1.3rem;
 }
 .intro-top-p{
     margin-bottom: 7rem;
@@ -377,14 +378,36 @@ body{
 }
 
 /* --------Meet the Team Styles--------- */
-
+.mtt-section{
+    padding: 1rem;
+}
 .mtt-h2{
     text-align: center;
     color: #b3ff5c;
     text-transform: uppercase;
     font-size: 2rem;
+    margin-bottom: 8rem;
 }
 
 .team-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    h4{
+        color: #C9E5FF;
+        font-size: 1.5rem;
+    }
+}
+
+.person-card{
+    padding: 20px;
+}
+
+@media (min-width: 800px) {
+    .mtt-section{
+        width: 800px;
+        margin: 0 auto;
+    }
     
 }
