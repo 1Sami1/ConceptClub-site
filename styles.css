@@ -159,16 +159,16 @@ body{
 }
 .hero-h1{
     margin-top: 20rem;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 0;
 
 }
 .hero-h1-btm{
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 900;
-    margin-left: 11rem;
+    margin-left: 7rem;
     margin-top: 0;
     text-transform: uppercase;
     
@@ -180,9 +180,9 @@ body{
 }
 .hero-section-asset{
     transform: rotate(345deg);
-    width: 100%;
+    width: 280px;
     position: relative;
-    bottom: 15rem;
+    bottom: 12rem;
     z-index: -5;
     opacity: 0.67;
     
@@ -203,7 +203,6 @@ body{
     }
     .hero-h1{
         font-size: 6rem;
-
     }
     .hero-h1-btm{
         font-size: 6rem;
@@ -213,7 +212,30 @@ body{
     .hero-section-asset{
         bottom: 22rem;
     }
-    
+}
+@media (min-width: 1024px) {
+    .hero-h1{
+        font-size: 8rem;
+    }
+    .hero-h1-btm{
+        font-size: 8rem;
+    }
+    .hero-section-asset{
+        bottom: 25rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .hero-h1{
+        font-size: 12rem;
+    }
+    .hero-h1-btm{
+        font-size: 12rem;
+    }
+    .hero-section-asset{
+        width: 1000px;
+        bottom: 43rem;
+    }
 }
 
 
