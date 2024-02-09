@@ -336,5 +336,42 @@ body{
 
 
 /* --------ABOUT PAGE--------- */
-/* --------Heading Style--------- */
+/* --------Heading Style & intro Style--------- */
+
+.about-h1{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    color: #b3ff5c;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.introP-section{
+    text-align: center;
+    margin: 0 auto;
+    color: #C9E5FF;
+    width: 80%;
+}
+.intro-top-p{
+    margin-bottom: 7rem;
+}
+
+@media (min-width: 1024px) {
+    .about-h1{
+        font-size: 4rem;
+    }
+    .introP-section{
+        width: 70%;
+    }
+}
+@media (min-width: 1600px) {
+    .about-h1{
+        font-size: 4rem;
+    }
+    .introP-section{
+        width: 50%;
+    }
+}
 
