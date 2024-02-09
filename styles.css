@@ -152,7 +152,7 @@ body{
   }
 
 
-
+/* --------HOME PAGE--------- */
 /* --------Hero Section Styles--------- */
 
 
@@ -247,7 +247,7 @@ body{
 
 
 
-/* Design and Development section styles */
+/* --------Design & Development Section--------- */
 
 
 
@@ -331,5 +331,10 @@ body{
     .dev-pic{
         padding-left: 4rem;
     }
-
 }
+
+
+
+/* --------ABOUT PAGE--------- */
+/* --------Heading Style--------- */
+
