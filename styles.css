@@ -162,7 +162,7 @@ body{
     position: relative;
     text-align: center;
     color: #b3ff5c ;
-    margin: 0 auto;
+    padding: 1rem;
 }
 
 .hero-h1{
@@ -251,7 +251,9 @@ body{
 
 
 
-.dnd-section{
+
+
+/* .dnd-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -298,4 +300,65 @@ body{
                 width: 40 0px;
             }
         }
+} */
+.dnd-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 15rem;
+}
+
+
+.dnd-image{
+    img{
+        width: 280px;
+    }
+}
+.dnd-content{
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    /* width: 280px; */
+    
+    h3{
+        font-size: 2rem;
+        color: #b3ff5c;
+    }
+    p{
+        color: #C9E5FF;
+        font-weight: 300;
+    }
+}
+@media (min-width: 600px) {
+    .dnd-section{
+        
+    }
+    
+}
+
+@media (min-width: 800px ) {
+    .dnd-section{
+        margin-top: 0;
+    }
+    .design-div, .dev-div{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .dev-div{
+        flex-direction: row-reverse;
+    }
+    .dnd-image{
+        flex: 1; 
+    }
+    .dnd-image img{
+        /* width: 450px; */
+        height: auto;
+    }
+    .dnd-content{
+        flex: 1;
+        padding: 0 30px;
+    }
+    
 }
