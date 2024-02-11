@@ -38,6 +38,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: 100px;
+    z-index: 1;
     li a{
         text-decoration: none;
         color: #C9E5FF;
@@ -47,6 +48,7 @@ body{
     margin: 0 10px;
     overflow: hidden;
 }
+
 .menu-button-container {
     display: none;
     height: 100%;
@@ -56,6 +58,24 @@ body{
     justify-content: center;
     align-items: center;
   }
+
+  .nav-ul ul{
+    display: none;
+	position: absolute; 
+	top: 60px;
+  }
+  li:hover > ul{
+    display: block;
+    
+    li{
+	float:none;
+	list-style: none;
+	position: relative;
+    z-index: 5;
+    background-color: #282a3e;
+    }
+  }
+
 
   #menu-toggle {
     display: none;
