@@ -442,17 +442,38 @@ body{
 .design-container{
     padding: 20px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     a{
         text-decoration: none;
         color: #C9E5FF;
+        padding-top: 0px;
+        font-size: 1.4rem;
     }
     img{
-        width: 100%;
+        width: 280px;
+        margin-bottom: 1.4rem;
     }
 }
 
-.design-div{
+.container-div{
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 600px ) {
+    .design-container{
+        .container-div{
+            padding:20px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .design-container{
+        margin: 0 2rem;
+        .container-div{
+            padding: 60px;
+        }
+    }
 }
