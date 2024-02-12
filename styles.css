@@ -288,6 +288,7 @@ body{
     padding-bottom: 3rem;
 }
 .dnd-image{
+    margin-bottom: 1.5rem;
     img{
         width: 280px;
     }
