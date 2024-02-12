@@ -435,3 +435,24 @@ body{
     }
     
 }
+
+/* --------Design Page styles Styles--------- */
+
+
+.design-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: #C9E5FF;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.design-div{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
