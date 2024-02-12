@@ -59,12 +59,14 @@ body{
     align-items: center;
   }
 
-  .nav-ul ul{
+  /* Dropdown Menu stuff */
+  
+  /* .nav-ul ul{
     display: none;
 	position: absolute; 
 	top: 60px;
-  }
-  li:hover > ul{
+  } */
+  /* li:hover > ul{
     display: block;
     
     li{
@@ -74,7 +76,7 @@ body{
     z-index: 5;
     background-color: #282a3e;
     }
-  }
+  } */
 
 
   #menu-toggle {
