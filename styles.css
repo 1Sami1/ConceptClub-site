@@ -3,7 +3,7 @@
 }
 
 body{
-    background: url(./media/bg.png);
+    background: url(./media/assets/bg.png);
     background-size: contain;
 }
 
@@ -561,6 +561,18 @@ body{
 
 
 
+/* --------Inspiration page for DESIGN Styles--------- */
+
+.image01{
+    background-image: url();
+}
+
+
+
+
+
+
+
 /* --------Contact page Styles--------- */
 
 .contact-h1{
@@ -569,6 +581,4 @@ body{
     color: #b3ff5c;
     font-size: 3rem;
     text-transform: uppercase;
-    
-    
 }
