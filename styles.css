@@ -522,7 +522,11 @@ body{
 }
 
 
+
 /* --------Tutorials page Styles--------- */
+
+
+
 .tutorials-section{
     display: flex;
     flex-wrap: wrap;
@@ -553,4 +557,18 @@ body{
     .tutorials-section{
         margin: 0 5rem;
     }
+}
+
+
+
+/* --------Contact page Styles--------- */
+
+.contact-h1{
+    text-align: center;
+    margin-top: 17rem;
+    color: #b3ff5c;
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+    
 }
