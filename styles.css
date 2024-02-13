@@ -207,6 +207,8 @@ body{
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 0;
+    animation: backInDown;
+    animation-duration: 700ms;
 }
 
 .hero-h1-btm{
@@ -215,6 +217,8 @@ body{
     margin-left: 7rem;
     margin-top: 0;
     text-transform: uppercase;
+    animation: backInUp;
+    animation-duration: 700ms;
 }
 
 .asset-div{
