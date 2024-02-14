@@ -202,7 +202,7 @@ body{
 }
 
 .hero-h1{
-    margin-top: 20rem;
+    margin-top: 12rem;
     font-size: 3.6rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -234,6 +234,8 @@ body{
     bottom: 12rem;
     z-index: -5;
     opacity: 0.67;
+    animation: fadeIn; 
+    animation-duration: 700ms;
 }
 
 @media (min-width: 600px) {
@@ -299,6 +301,17 @@ body{
     padding: 1rem;
     margin-top: 15rem;
     margin-bottom: 15rem;
+}
+
+.design-pic{
+  animation: fadeInLeft; 
+  animation-duration: 4s;
+  animation-timeline: scroll();
+}
+.dev-pic{
+    animation: fadeInRight; 
+  animation-duration: 4s;
+  animation-timeline: scroll();
 }
 
 .design-div, .dev-div{
@@ -388,6 +401,8 @@ body{
     font-size: 2.4rem;
     font-weight: 900;
     text-transform: uppercase;
+    animation: fadeIn; 
+    animation-duration: 1s;
 }
 
 .introP-section{
@@ -400,6 +415,14 @@ body{
 }
 .intro-top-p{
     margin-bottom: 7rem;
+    animation: lightSpeedInLeft; 
+    animation-duration: 2s;
+    
+}
+.intro-btm-p{
+    animation: lightSpeedInRight;  
+    animation-duration: 2s;
+
 }
 
 @media (min-width: 1024px) {
@@ -429,6 +452,8 @@ body{
     text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: 8rem;
+    animation: fadeIn; 
+    animation-duration: 4s;
 }
 
 .team-divs{
@@ -477,6 +502,10 @@ body{
 .container-div{
     text-align: center;
     margin-bottom: 3rem;
+    animation: headShake; 
+    animation-duration: 1.4s;
+}:nth-child(1){
+    animation-duration: 2s;
 }
 
 
