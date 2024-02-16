@@ -59,7 +59,7 @@ body{
       }
 }
 .nav-ul > li {
-    margin: 0 10px;
+    margin:  10px;
     overflow: hidden;
 }
 
@@ -73,26 +73,6 @@ body{
     align-items: center;
   }
 
-  /* Dropdown Menu stuff */
-  
-  /* .nav-ul ul{
-    display: none;
-	position: absolute; 
-	top: 60px;
-  } */
-  /* li:hover > ul{
-    display: block;
-    
-    li{
-	float:none;
-	list-style: none;
-	position: relative;
-    z-index: 5;
-    background-color: #282a3e;
-    }
-  } */
-
-
   #menu-toggle {
     display: none;
   }
@@ -103,7 +83,7 @@ body{
     display: block;
     background-color: #fff;
     position: absolute;
-    height: 6px;
+    height: 3px;
     width: 32px;
     border-radius: 3px;
   }
@@ -152,7 +132,7 @@ body{
     }
     .nav-ul {
       position: absolute;
-      top: 0;
+      top: -0.4rem;
       margin-top: 94px;
       left: 0;
       flex-direction: column;
@@ -180,7 +160,7 @@ body{
       /* padding: 0.5em 0; */
       width: 100%;
       color: black;
-      background-color: #282a3e;
+      background-color: #282A3E;
     }
     .nav-ul > li:not(:last-child) {
       border-bottom: 1px solid #444;
@@ -686,4 +666,11 @@ body{
     color: #b3ff5c;
     font-size: 3rem;
     text-transform: uppercase;
+}
+
+.form-section{
+    width: 50%;
+}
+
+.message{
 }
