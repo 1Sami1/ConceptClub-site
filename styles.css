@@ -482,11 +482,12 @@ body{
 .container-div{
     text-align: center;
     margin-bottom: 3rem;
-    animation: headShake; 
+}
+    /* animation: headShake; 
     animation-duration: 1.4s;
 }:nth-child(1){
     animation-duration: 2s;
-}
+} */
 
 
 .overlay-link:hover{
@@ -669,8 +670,68 @@ body{
 }
 
 .form-section{
-    width: 50%;
+    margin-top: 5rem;
 }
 
-.message{
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    input{
+        margin: 5px;
+        margin-top: 1.5rem;
+        border-radius: 4px;
+        border: 2px solid #C9E5FF;
+        height: 29px;
+        padding: 4px;
+        
+    }
+    input:focus, .message:focus{
+        transition: all 200ms ease-in-out;
+        border: #b3ff5c;
+        box-shadow: 0px 0px 17px 4px rgba(179,255,92,0.50);
+    }
+    .message{
+        margin: 5px;
+        padding: 5px;
+        margin-top: 1.5rem;
+        border-radius: 6px;
+        border: 2px solid #C9E5FF;
+    }
+    label{
+        margin: 5px;
+        margin-top: 1.5rem;
+        font-size: 20px;
+        color: #C9E5FF;
+        font-weight: 300;
+    }
+    .submit-btn{
+        margin-top: 20px;
+        width: 40%;
+        height: 35px;
+        margin-top: 1.5rem;
+        border: 2px solid #C9E5FF;
+        color: #282a3e;
+    }
+    .submit-btn:hover{
+        cursor: pointer;
+        background-color: #282A3E;
+        color: #b3ff5c;
+        border: 2px solid #b3ff5c;
+        box-shadow: 0px 0px 17px 4px rgba(179,255,92,0.50);
+        transition: all 320ms ease-in-out;
+
+    }
+}
+
+@media (min-width: 500px) {
+    .contact-form{
+        .submit-btn{
+        width: 20%;
+    }
+    }
+    
 }
