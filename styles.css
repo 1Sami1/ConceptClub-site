@@ -29,9 +29,10 @@ body{
 .header-logo{
     width: 70px;
     margin-left: 100px;
-    img{
-        width: 70px;
-    }
+    
+}
+.logo-img{
+    width: 70px;
 }
 .nav-ul{
     list-style: none;
