@@ -374,8 +374,9 @@ body{
 /* --------Social Media Section--------- */
 
 .home-social-section{
-    height:60vh;
+    height:75vh;
     margin-bottom: 10rem;
+    overflow: hidden;
 }
 .home-social-h2{
     text-align: center;
@@ -391,10 +392,20 @@ body{
     display: flex;
     margin: 0 auto;
     height: 100%;
+    overflow: hidden;
 }
 
+@media (min-width:800px) {
+    
+}
 
+/* Footer Styles */
 
+.social-footer-div{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
 
 
 /* --------ABOUT PAGE--------- */
