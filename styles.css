@@ -285,14 +285,16 @@ body{
 }
 
 .design-pic{
-  animation: fadeInLeft; 
-  animation-duration: 4s;
-  animation-timeline: scroll();
+    width: 280px;
+    animation: fadeInLeft; 
+    animation-duration: 4s;
+    animation-timeline: scroll();
 }
 .dev-pic{
+    width: 280px;
     animation: fadeInRight; 
-  animation-duration: 4s;
-  animation-timeline: scroll();
+    animation-duration: 4s;
+    animation-timeline: scroll();
 }
 
 .design-div, .dev-div{
@@ -301,9 +303,9 @@ body{
 }
 .dnd-image{
     margin-bottom: 1.5rem;
-    img{
+    /* img{
         width: 280px;
-    }
+    } */
 }
 .dnd-content{
     margin: 0 auto;
@@ -769,6 +771,6 @@ body{
 
 @media (min-width: 800px) {
     .social-icon{
-        width: 100px;
+        width: 70px;
     }
 }
