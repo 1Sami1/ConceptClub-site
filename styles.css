@@ -396,8 +396,14 @@ body{
 }
 
 @media (min-width:800px) {
+    .home-social-section{
+        height: 80vh;
+        overflow: visible;
+        margin-bottom: 20rem;
+    }
     .insta-frame{
         width: 800px;
+        height: 100%;
     }
 }
 
