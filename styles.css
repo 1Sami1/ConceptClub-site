@@ -169,6 +169,32 @@ body{
   }
 
 
+  /* --------Footer Styles--------- */
+
+
+
+.site-footer{
+    height: 50px;
+    background-color: #282a3e;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.social-footer-icon{
+    width: 30px;
+    padding: 0 10px;
+}
+
+
+
 /* --------HOME PAGE--------- */
 /* --------Hero Section Styles--------- */
 
@@ -830,3 +856,5 @@ body{
         width: 70px;
     }
 }
+
+
