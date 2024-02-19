@@ -281,20 +281,20 @@ body{
     flex-direction: column;
     padding: 1rem;
     margin-top: 15rem;
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
 }
 
 .design-pic{
     width: 280px;
     animation: fadeInLeft; 
     animation-duration: 4s;
-    animation-timeline: scroll();
+    /* animation-timeline: scroll(); */
 }
 .dev-pic{
     width: 280px;
     animation: fadeInRight; 
     animation-duration: 4s;
-    animation-timeline: scroll();
+    /* animation-timeline: scroll(); */
 }
 
 .design-div, .dev-div{
@@ -370,6 +370,30 @@ body{
         padding-left: 4rem;
     }
 }
+
+/* --------Social Media Section--------- */
+
+.home-social-section{
+    height:60vh;
+    margin-bottom: 10rem;
+}
+.home-social-h2{
+    text-align: center;
+    color: #b3ff5c;
+    font-size: 2rem;
+    margin-bottom: 7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    animation: fadeIn; 
+    animation-duration: 1s;
+}
+.insta-frame{
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
 
 
 
