@@ -880,3 +880,76 @@ body{
 .blog-image{
     width: 280px;
 }
+
+
+/* --------  How to create a brand Blog Page  --------- */
+
+
+.blog-main-header{
+    text-align: center;
+    margin-top: 5rem;
+    color: #C9E5FF;
+}
+.blog-h3{
+    color: #b3ff5c;
+    font-size: 28px;
+}
+.author-name{
+    margin: 0;
+}
+.pub-date{
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.blog-section{
+    color: #C9E5FF;
+    padding: 20px;
+    margin-bottom: 10rem;
+}
+
+@media (min-width: 700px) {
+    .blog-section{
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+}
+@media (min-width: 1500px) {
+    .blog-section{
+        width: 800px;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+}
+.share-btns{
+margin-top: 4rem;
+
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    padding: 0.1em 0.6em;
+    outline: none;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 0.2em;
+    cursor: pointer;
+  }
+  
+  .share-btn:focus,
+  .share-btn:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .share-btn:active {
+    color: #e2e2e2;
+  }
+  
+  .share-btn.twitter     { background: #55acee; }
+  .share-btn.facebook    { background: #3B5998; }
+  .share-btn.link    { background: #3B5998; }
