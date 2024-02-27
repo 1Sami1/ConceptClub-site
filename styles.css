@@ -907,7 +907,9 @@ body{
     padding: 20px;
     margin-bottom: 10rem;
 }
-
+.wp-h4{
+    color: #b3ff5c;
+}
 @media (min-width: 700px) {
     .blog-section{
         width: 600px;
