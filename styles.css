@@ -860,7 +860,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
+    margin-bottom: 15rem;
 }
+
 
 .blog{
     position: relative;
