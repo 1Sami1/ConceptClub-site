@@ -710,6 +710,29 @@ body{
 .image06{
     background-image: url(./media/stock/inspo-6.png);
 }
+/* DEV STYLING */
+.dev-image01{
+    background-image: url(./media/stock/inspo-1.png);
+    
+}
+.dev-image02{
+    background-image: url(./media/stock/inspo-2.png);
+}
+.dev-image03{
+    background-image: url(./media/stock/inspo-3.png);
+}
+.dev-image04{
+    background-image: url(./media/stock/inspo-4.png);
+    
+}
+.dev-image05{
+    background-image: url(./media/stock/inspo-5.png);
+}
+.dev-image06{
+    background-image: url(./media/stock/inspo-6.png);
+}
+
+
 .image:hover{
     background-size:contain;
     filter: drop-shadow(0px 0px 13px #C9E5FF);
