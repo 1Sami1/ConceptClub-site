@@ -656,6 +656,7 @@ body{
 @media (min-width:1500px) {
     .tutorials-section{
         margin: 0 5rem;
+        margin: 5rem;
     }
 }
 
